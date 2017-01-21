@@ -1,6 +1,6 @@
 # Cli döviz
 
-Komut satırı üzerinden usd, eur, gbp  kurlarının değerlerini takip etmenizi sağlar.
+Komut satırı üzerinden usd, eur, gbp  kurlarının alış/satış değerlerini takip etmenizi sağlar.
 
 
 ## Kurulum
