@@ -15,6 +15,7 @@ setup(
     url="https://github.com/erhan/doviz",
     description=("""Cli doviz"""),
     install_requires=[
+        'lxml',
         'Click',
         'requests',
         'bs4'

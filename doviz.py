@@ -40,10 +40,10 @@ def print_rate(kur, rate):
 
 
 @click.command()
-@click.option('--site', default="DOV", help='Kuru çekmek istediğiniz siteniz kısa kodunu giriniz.DOV (doviz.com) - PDOV (piyasadoviz.com)', type=click.Choice(['DOV', 'PDOV']))
-@click.option('--kur', default="ALL", help='Görmek istediğiniz kurun kısa kodunu giriniz.Tüm kurlar için ALL girebilirsiniz.', type=click.Choice(['ALL', 'USD', 'EUR', 'GBP']))
+@click.option('--site', default="DOV", help="Kuru cekmek istediginiz sitenin kisa kodunu giriniz.DOV (doviz.com) - PDOV (piyasadoviz.com)", type=click.Choice(['DOV', 'PDOV']))
+@click.option('--kur', default="ALL", help="Gormek istediginiz kurun kisa kodunu giriniz.Tum kurlar icin ALL girebilirsiniz.", type=click.Choice(['ALL', 'USD', 'EUR', 'GBP']))
 def get_exchange_rate(kur, site):
-    """Kur alış/satış değerlerini istediğiniz siteden çekip komut satırında kurun artış azalışına göre renkli olarak görebileceğiniz program.
+    """Kur alis/satis degerlerini istediginiz siteden cekip komut satirinda kurun artis azalisina gore renkli olarak gorebileceginiz program.
     Desteklenen kurlar USD - EUR - GBP """
     func_name = get_rate_from_dov() if site == "DOV" else get_rate_from_pdov()
     for key, value in func_name.items():
