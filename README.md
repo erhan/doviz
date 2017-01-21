@@ -27,22 +27,22 @@ Komut satırı üzerinden usd, eur, gbp  kurlarının değerlerini takip etmeniz
 
     $ doviz
     
-![Alt hepsi](/images/hepsi.png "doviz")
+![Alt hepsi](/images/hepsi.png "tümü")
    
-### İstediğiniz site için parametre verebilirsiniz.(DOV, PDOV)
+### İstediğiniz site için parametre verebilirsiniz.(DOV : doviz.com , PDOV : piyasadoviz.com)
 
     $ doviz --site PDOV
 
-![Alt site](/images/site.png "doviz")
+![Alt site](/images/site.png "site")
 
 ### İstediğiniz kur için parametre verebilirsiniz.(ALL, USD, EUR, GBP)
 
     $ doviz --kur USD
 
-![Alt kur](/images/kur.png "doviz")
+![Alt kur](/images/kur.png "kur")
     
 ### Yardım
 
     $ doviz --help
     
-![Alt help](/images/help.png "doviz")
+![Alt help](/images/help.png "help")
